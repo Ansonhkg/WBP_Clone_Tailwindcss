@@ -26,11 +26,11 @@
 }
 
 .bg-blue-square{
-    background-image: url('/WBP_Clone_Tailwindcss/images/boxbg.png');
+    background-image: url('/WBP_Clone_Tailwindcss/dist/images/boxbg.png');
 }
 
 .bg-footer{
-    background-image: url('/WBP_Clone_Tailwindcss/images/cityscape.png');
+    background-image: url('/WBP_Clone_Tailwindcss/dist/images/cityscape.png');
     background-repeat: repeat-x;
     background-position: bottom center;
 }
