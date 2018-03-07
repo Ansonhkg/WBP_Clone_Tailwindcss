@@ -1,0 +1,80 @@
+@tailwind preflight;
+
+@tailwind utilities;
+
+.text-shadow{
+    text-shadow: 0px 0px 4px black;
+}
+
+.post-underline{
+    @apply h-1;
+    @apply w-24;
+    @apply mx-auto;
+    @apply mt-4;
+    @apply mb-4;
+}
+
+.input{
+    @apply bg-grey-lighter;
+    @apply p-2;
+    @apply text-grey-darker; 
+    @apply border;
+    @apply rounded;
+    @apply border-grey;
+    @apply m-2;
+    @apply w-5/6;
+}
+
+.bg-blue-square{
+    background-image: url('/dist/images/boxbg.png');
+}
+
+.bg-footer{
+    background-image: url('/dist/images/cityscape.png');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+}
+.banner{
+    max-height:700px;
+}
+.text-vp{
+    font-size: 5vw;
+}
+
+.text-banner{
+    text-shadow: 1px 1px 4px #922724;
+    font-weight:100;
+}
+
+.text-banner-focus{
+    font-weight:800;
+}
+.icon-social{
+    @apply h-8;
+    @apply w-8;
+    @apply p-1;
+    @apply m-1;
+    @apply rounded-full;
+    @apply bg-white;
+    opacity: 0.8;
+}
+.btn{
+    @apply flex-1;
+    @apply text-grey-dark;
+    @apply text-center;
+    @apply block;
+    @apply rounded;
+    @apply p-2;
+    @apply cursor-pointer;
+    @apply m-1;
+}
+
+.btn-hover{
+    @apply flex-1;
+    @apply bg-red;
+    @apply text-white;
+    @apply text-center;
+    @apply block;
+    @apply rounded;
+    @apply p-2;
+}
