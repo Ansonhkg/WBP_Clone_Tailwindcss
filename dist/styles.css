@@ -4504,11 +4504,11 @@ button,
 }
 
 .bg-blue-square {
-  background-image: url('/dist/images/boxbg.png');
+  background-image: url('/images/boxbg.png');
 }
 
 .bg-footer {
-  background-image: url('/dist/images/cityscape.png');
+  background-image: url('/images/cityscape.png');
   background-repeat: repeat-x;
   background-position: bottom center;
 }
